@@ -4,7 +4,7 @@ Scrape hackernews using Scrapy & Python.
 ## How to use?
 1. Star and download/clone this repo.
 2. Run `pip3 install scrapy`
-3. Run `scrapy crawl hacker-news`
+3. Run `scrapy crawl hacker-news -o hackernews-data.json`
 4. Data will be stored in hackernews-data.json file.
 
 ## Global variables to customise
